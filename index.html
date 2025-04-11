@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Italia - Meu primeiro site com bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Itália</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html" target="_self">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura e Arte</a></li>
+          <li class="nav-item"><a class="nav-link" href="#turismo">Turismo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#culinaria">Culinária</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia"> Historia</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img src="img/img10.jpg" class="d-block w-100" alt="Coliseu">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Coliseu de Roma</h5>
+          <p>Um dos maiores símbolos da Itália e da Roma Antiga.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="img/img11.jpeg" class="d-block w-100" alt="Veneza">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Canais de Veneza</h5>
+          <p>Um cenário encantador e romântico em meio às águas.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="img/img12.jpg" class="d-block w-100" alt="Florença">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Catedral de Florença</h5>
+          <p>Uma obra-prima da arquitetura renascentista italiana.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+  <div class="container my-5">
+
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-6">
+        <img src="img/pizza.jpg" class="img-fluid rounded w-100" alt="Culinária Italiana">
+      </div>
+      <div class="col-md-6">
+        <h4>Culinária Italiana</h4>
+        <p class="text-justify">
+            A culinária italiana é mundialmente conhecida por sua autenticidade e diversidade regional. Cada região da Itália possui pratos típicos que refletem a cultura local, 
+            desde as massas artesanais do sul até os risotos e queijos do norte. Ingredientes frescos como tomates, azeite de oliva, manjericão e alho são base da maioria das receitas.
+             A pizza napolitana, a lasanha à bolonhesa e o tiramisù são apenas alguns exemplos da riqueza gastronômica italiana. 
+            Mais do que uma refeição, a culinária na Itália é um ritual social e cultural.
+        </p>
+      </div>
+    </div>
+  
+    <div class="row mb-5 align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <img src="img/img14.jpg" class="img-fluid rounded w-100" alt="História Italiana">
+      </div>
+      <div class="col-md-6">
+        <h4>História Rica</h4>
+        <p class="text-justify">
+            A história da Itália é uma das mais ricas e influentes do mundo ocidental. Foi o berço do Império Romano, que moldou o direito, 
+            a política e a arquitetura em grande parte da Europa. Após a queda de Roma, a península italiana se dividiu em diversos reinos e cidades-estados, 
+            cada um contribuindo para o florescimento cultural da Idade Média. No Renascimento, nomes como Leonardo da Vinci, Michelangelo e Rafael elevaram a arte e a ciência a novos patamares. 
+            A unificação italiana ocorreu apenas no século XIX, mas seu legado histórico é eterno — visível em cada rua, monumento e tradição.
+        </p>
+      </div>
+    </div>
+  
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-6">
+        <img src="img/img15.jpg" class="img-fluid rounded w-100" alt="Turismo na Itália">
+      </div>
+      <div class="col-md-6">
+        <h4>Turismo Encantador</h4>
+        <p class="text-justify">
+            A Itália é um dos destinos turísticos mais visitados do mundo, oferecendo experiências inesquecíveis para todos os gostos. 
+            Roma encanta com o Coliseu, o Vaticano e suas ruas históricas. Veneza surpreende com seus canais românticos e passeios de gôndola. 
+            Florença respira arte e Renascimento, enquanto Milão é o coração da moda e do design. Além das cidades, o interior italiano guarda vilarejos encantadores, vinhedos, 
+            montanhas e praias paradisíacas como as da Costa Amalfitana e da Sardenha. Viajar pela Itália é como caminhar dentro de um museu a céu aberto.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="bg-danger text-white text-center p-3 mt-5">
+    &copy; 2025 Descubra a Itália. Todos os direitos reservados.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

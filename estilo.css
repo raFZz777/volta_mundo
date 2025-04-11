@@ -1,0 +1,166 @@
+
+.carousel {
+    max-height: 500px;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-caption h5 {
+      font-size: 1.2rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 0.9rem;
+    }
+  }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .navbar {
+    background: linear-gradient(to right, #008000, #ffffff, #ff0000); /* Verde, Branco e Vermelho */
+  }
+  
+  footer {
+    background-color: #008000; 
+    color: #fff;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    color: #cc0000;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  img {
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  .carousel {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+  
+  .carousel-item img {
+    height: 550px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .img-fluid {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .navbar {
+    z-index: 1000;
+  }
+  
+  footer {
+    background-color: #dc3545;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-item img,
+    .img-fluid {
+      height: 220px;
+    }
+  }
+  
+  .container {
+    padding-bottom: 40px;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 10px;
+    color: #000;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: #fff !important;
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00 !important;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-brand {
+      font-size: 1.4rem;
+    }
+  
+    .carousel-caption h5 {
+      font-size: 1.1rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 0.9rem;
+    }
+  
+    .row .col-md-6 {
+      margin-bottom: 20px;
+    }
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("img/italia.webp") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    color: #333;
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: rgba(255, 255, 255, 0.85); 
+    z-index: -1; 
+  }
+  .img-cultura {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px;
+  }
+  .turismo-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }

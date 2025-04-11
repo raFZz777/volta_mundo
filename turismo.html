@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Turismo na Itália</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .turismo-img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .carousel-item img {
+      height: 500px;
+      object-fit: cover;
+    }
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Itália</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura e Arte</a></li>
+          <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
+          <li class="nav-item"><a class="nav-link" href="culinaria.html">Culinária</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-6">
+        <img src="img/img.webp" class="img-fluid rounded w-100" alt="Coliseu de Roma">
+      </div>
+      <div class="col-md-6">
+        <h4>Coliseu de Roma</h4>
+        <p>Um dos maiores símbolos da Roma Antiga, o Coliseu é um anfiteatro monumental que revela a grandiosidade do Império Romano. Com capacidade para mais de 50 mil espectadores, era palco de combates de gladiadores e espetáculos públicos. É uma parada obrigatória para qualquer visitante da capital italiana.</p>
+      </div>
+    </div>
+
+    <div class="row mb-5 align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <img src="img/img9.jpeg" class="img-fluid rounded w-100" alt="Veneza e seus canais">
+      </div>
+      <div class="col-md-6">
+        <h4>Canais de Veneza</h4>
+        <p>Veneza é famosa por seus canais encantadores, onde o transporte principal é feito por barcos e gôndolas. A Praça de São Marcos, a Basílica e o Palácio Ducal formam um cenário mágico, especialmente ao pôr do sol. É um destino perfeito para casais e amantes da arte e arquitetura.</p>
+      </div>
+    </div>
+
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-6">
+        <img src="img/img13.jpg" class="img-fluid rounded w-100" alt="Catedral de Florença">
+      </div>
+      <div class="col-md-6">
+        <h4>Florença e o Renascimento</h4>
+        <p>Conhecida como o berço do Renascimento, Florença abriga museus e obras-primas de artistas como Michelangelo, Botticelli e Leonardo da Vinci. A Catedral de Santa Maria del Fiore, com sua famosa cúpula, é um espetáculo à parte e domina a paisagem da cidade.</p>
+      </div>
+    </div>
+
+    <div class="row mb-5 align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <img src="img/milao.webp" class="img-fluid rounded w-100" alt="Milão">
+      </div>
+      <div class="col-md-6">
+        <h4>Milão – Capital da Moda</h4>
+        <p>Milão é uma cidade vibrante, moderna e símbolo da moda italiana. A cidade também encanta com sua catedral gótica, o Castelo Sforzesco e a famosa pintura “A Última Ceia” de Da Vinci. É um excelente destino para quem aprecia design, compras e vida noturna.</p>
+      </div>
+    </div>
+
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-6">
+        <img src="img/costa.jpg" class="img-fluid rounded w-100" alt="Costa Amalfitana">
+      </div>
+      <div class="col-md-6">
+        <h4>Costa Amalfitana</h4>
+        <p>Com suas falésias à beira-mar, vilarejos coloridos e estradas panorâmicas, a Costa Amalfitana é um dos destinos mais deslumbrantes da Itália. As cidades de Positano, Amalfi e Ravello oferecem paisagens de tirar o fôlego e experiências gastronômicas únicas.</p>
+      </div>
+    </div>
+
+    <div class="row mb-5 align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <img src="img/toscana.webp" class="img-fluid rounded w-100" alt="Campos da Toscana">
+      </div>
+      <div class="col-md-6">
+        <h4>Toscana e seus vinhedos</h4>
+        <p>A região da Toscana é famosa por suas paisagens campestres, vinhedos, vilarejos medievais e culinária rústica. Cidades como Siena, San Gimignano e Montepulciano são perfeitas para quem deseja relaxar e vivenciar o charme da vida italiana no campo.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner rounded shadow">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img src="img/img10.jpg" class="d-block w-100" alt="Coliseu">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+            <h5>Coliseu de Roma</h5>
+            <p>Um dos maiores símbolos da Roma Antiga.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="img/img11.jpeg" class="d-block w-100" alt="Veneza">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+            <h5>Canais de Veneza</h5>
+            <p>Romance e história em meio às águas.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="img/img12.jpg" class="d-block w-100" alt="Florença">
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+            <h5>Catedral de Florença</h5>
+            <p>Uma obra-prima do Renascimento italiano.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+
+  <footer class="bg-danger text-white text-center p-3 mt-5">
+    &copy; 2025 Descubra a Itália. Todos os direitos reservados.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
